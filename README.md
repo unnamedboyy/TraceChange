@@ -3,8 +3,6 @@ A Streamlit-based application for detecting and analyzing changes between two ta
 
 TraceChange helps you compare an **Old** dataset and a **New** dataset, classify differences, visualize changes, and export results with color-coded Excel highlighting. This tool is ideal for data analysts, engineers, system auditors, and anyone who works with versioned data such as inventory lists, configuration tables, or asset registries.
 
----
-
 ## 🚀 Features
 
 ### ✓ Row Difference Detection
@@ -35,24 +33,8 @@ The exported Excel file uses intuitive color coding:
 - Auto-detection of changed columns  
 - Stable ordering for clear visual analysis  
 
----
-
-## 📁 Project Structure
-TraceChange/
-│
-├── app.py # Home page
-├── pages/
-│ └── 1_Table_Compare.py # Main comparison module
-├── README.md
-├── .gitignore
-├── requirements.txt
-└── LICENSE (optional)
-
----
 
 Siap! Berikut bagian **Installation & Setup** yang ditulis ulang dengan bahasa yang lebih rapi, profesional, dan mudah diikuti.
-
----
 
 ## 🧩 Installation & Setup
 
@@ -61,8 +43,6 @@ Siap! Berikut bagian **Installation & Setup** yang ditulis ulang dengan bahasa y
 bash
 git clone https://github.com/<your-username>/TraceChange.git
 cd TraceChange
-
----
 
 ### **2️⃣ (Optional) Create and activate a virtual environment**
 
@@ -79,7 +59,6 @@ bash
 python3 -m venv venv
 source venv/bin/activate
 
----
 
 ### **3️⃣ Install required dependencies**
 
@@ -89,7 +68,6 @@ bash
 pip install --upgrade pip
 pip install -r requirements.txt
 
----
 
 ### **4️⃣ Run the application**
 
@@ -103,4 +81,3 @@ After launching, Streamlit will open the app in your default browser:
 http://localhost:8501
 
 You will see the **Home page** and a sidebar containing the **Table Comparison** module.
-
